@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find invpend_gazebo)/launch/invpend_world.launch"/>
+    <include file="$(find invpend_control)/launch/invpend_control.launch"/>
+    <node name="lqr_controller" pkg="lqr_invpend_control" type="lqr_invpend_control.py" output="screen"/>
+</launch>
