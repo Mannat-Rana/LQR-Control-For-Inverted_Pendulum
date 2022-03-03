@@ -21,6 +21,7 @@ This package relies on a Gazebo simulation of an inverted pendulum. Please visit
 cd ~/catkin_ws/src
 https://github.com/Mannat-Rana/LQR-Control-For-Inverted_Pendulum.git
 catkin build lqr_invpend_control
+sudo chmod +x LQR-Control-For-Inverted_Pendulum/lqr_invpend_control/src/lqr_invpend_control.py
 cd ~/catkwin_ws
 source devel/setup.bash
 ```
